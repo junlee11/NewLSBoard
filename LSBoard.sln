@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSBoard", "LSBoard\LSBoard.csproj", "{7C875F44-8E11-4CA5-BAEC-969FA5F991E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C875F44-8E11-4CA5-BAEC-969FA5F991E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C875F44-8E11-4CA5-BAEC-969FA5F991E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C875F44-8E11-4CA5-BAEC-969FA5F991E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C875F44-8E11-4CA5-BAEC-969FA5F991E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8704DCA-50A7-434A-8BD4-13DB51A70D3B}
+	EndGlobalSection
+EndGlobal

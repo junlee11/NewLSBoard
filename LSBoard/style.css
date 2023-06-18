@@ -1,0 +1,147 @@
+﻿#login_btn {
+    margin: auto;
+    margin-top:10%;
+    display:block;
+    width:150px;
+    height:50px;
+    font-size:25px;
+}
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+    #wrapper.toggled {
+        padding-left: 180px;
+    }
+
+#sidebar-wrapper {    
+    z-index: 1000;
+    position: fixed;
+    width: 0;
+    height: 100%;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 180px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -180px;
+}
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+/*btn css*/
+#link_home{
+    color:white;
+    font-size:35px;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.base_menu:active{
+    background-color:green;
+    color:red;
+}
+
+.base_menu {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.base_menu:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.base_menu:active,
+.base_menu:focus {
+    text-decoration: none;
+}
+
+.base_menu{
+    color:#999999;
+}
+/*btn css*/
+
+
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 180px;
+    }
+
+        #wrapper.toggled {
+            padding-left: 0;
+        }
+
+    #sidebar-wrapper {
+        width: 180px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+.IntroBox {
+    width: 400px;
+    height: 500px;
+    background-color: ivory;
+    border: 1px solid gray;
+}
+
+.ImgResize {
+    padding: 10px;
+    width: 400px;
+    object-fit: cover;
+}
+
