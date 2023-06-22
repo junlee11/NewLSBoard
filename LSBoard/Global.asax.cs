@@ -18,8 +18,17 @@ namespace LSBoard
 
         private void RegisterRoutes(RouteCollection routes) // 라우터 테이블을 추가/관리하는 메서드
         {
+            //로그인 페이지
             routes.MapPageRoute("", "", "~/Main.aspx");
-            routes.MapPageRoute("LSBoard", "LSBoard", "~/Menu.aspx");
+
+            //첫 페이지
+            routes.MapPageRoute("LSBoard", "LSBoard", "~/MenuPage/Home.aspx");
+
+            //소개 페이지
+            routes.MapPageRoute("LSBoard/Intro", "LSBoard/Intro", "~/MenuPage/Intro.aspx");
+
+            //통계 페이지
+            routes.MapPageRoute("LSBoard/Statistics", "LSBoard/Statistics", "~/MenuPage/Statistics.aspx");
         }
     }
 }
